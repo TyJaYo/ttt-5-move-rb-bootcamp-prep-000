@@ -10,4 +10,4 @@ end
 
 def input_to_index(input) do input.to_i - 1 end
 
-move(board, index, pc = "X") board[index] = pc end
+move(board, index, pc = "X") do board[index] = pc end
